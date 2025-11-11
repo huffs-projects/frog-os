@@ -1,9 +1,11 @@
 # Frog OS
+custom nix config
 
-Frog OS is an opinionated NixOS flake that provides a complete, production-ready desktop environment built on Hyprland. It offers a modern, themeable, and highly customizable setup for development and daily computing.
-
-Inspired by [DHH's Omarchy](https://github.com/basecamp/omarchy), Frog OS brings a similar philosophy to NixOS with a focus on developer productivity, beautiful aesthetics, and reproducible configurations.
-
+```bash
+Fair Warning
+I wrote this and thus it is unlikely to work, if your build breaks, mine likely has too (see Contributing).
+It is likely not the most optimal implementation, and if there's something better out there, you should use that. 
+```
 ## What's Included
 
 ### Core Desktop Environment
@@ -11,7 +13,7 @@ Inspired by [DHH's Omarchy](https://github.com/basecamp/omarchy), Frog OS brings
 - **Hyprland** - Modern Wayland compositor with theme-based window borders and animations
 - **Waybar** - Status bar with theme-based styling
 - **Wofi** - Application launcher and menu
-- **Hyprlock** - Screen locker with FROG OS branding
+- **Hyprlock** - Screen locker
 - **Mako** - Notification daemon
 
 ### Terminal & Shell
