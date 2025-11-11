@@ -1,11 +1,9 @@
 # Frog OS
-custom nix config
 
-```bash
-Fair Warning
-I wrote this and thus it is unlikely to work, if your build breaks, mine likely has too (see Contributing).
-It is likely not the most optimal implementation, and if there's something better out there, you should use that. 
-```
+Frog OS is an opinionated NixOS flake that provides a complete, production-ready desktop environment built on Hyprland. It offers a modern, themeable, and highly customizable setup for development and daily computing.
+
+Inspired by [DHH's Omarchy](https://github.com/basecamp/omarchy), Frog OS brings a similar philosophy to NixOS with a focus on developer productivity, beautiful aesthetics, and reproducible configurations.
+
 ## What's Included
 
 ### Core Desktop Environment
@@ -13,7 +11,7 @@ It is likely not the most optimal implementation, and if there's something bette
 - **Hyprland** - Modern Wayland compositor with theme-based window borders and animations
 - **Waybar** - Status bar with theme-based styling
 - **Wofi** - Application launcher and menu
-- **Hyprlock** - Screen locker
+- **Hyprlock** - Screen locker with FROG OS branding
 - **Mako** - Notification daemon
 
 ### Terminal & Shell
@@ -176,14 +174,6 @@ This flake supports building custom Rust and C/C++ packages from source. See [`p
 
 The flake includes **Naersk** for easy Rust package building and a complete Rust toolchain for development. See [`pkgs/README.md`](./pkgs/README.md) for comprehensive examples and documentation.
 
-## Features
-
-- **Unified Theming** - All applications automatically use your selected theme colors
-- **Wallpaper-Based Theme Generation** - Automatically extract color schemes from your wallpapers
-- **Reproducible Builds** - Everything is defined in Nix for complete reproducibility
-- **Custom Package Support** - Build and include Rust and C/C++ packages from source
-- **Developer-Focused** - Pre-configured tools for modern development workflows
-- **Highly Customizable** - Easy to extend and modify to fit your needs
 
 ## License
 
